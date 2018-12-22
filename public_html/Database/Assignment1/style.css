@@ -1,0 +1,128 @@
+body {
+background: url('Images/repeatingPattern4.jpg')
+}
+
+.review {
+  width:50%;
+  font-size: 16pt;
+
+}
+
+.reviewTitle{
+  width: 50%;
+  font-size: 20pt;
+}
+.reviewRight{
+  display: block;
+  margin-right: 20px;
+}
+
+.imgRight{
+  float: right;
+  display: inline;
+  width: 45%;
+}
+
+nav ul{
+  text-align: center;
+
+}
+nav li{
+  list-style:none;
+  display: inline-block;
+
+}
+
+nav li a{
+  text-decoration: none;
+  color:white;
+  font-family: 'Indie Flower', cursive;
+  font-size:18pt;
+  font-style: bold;
+  background-color: rgba(14,153,201,1);
+
+  padding:3px;
+  margin:50px;
+  border:3px solid black;
+}
+
+nav li a:hover{
+  padding:5px;
+  color:rgba(14,153,201,1);
+  border:3px solid black;
+  background-color:white;
+}
+
+nav li a:active{
+  padding:3px;
+  border:3px solid black;
+  background-color: rgba(14,153,201,1);
+  color:white;
+}
+
+section p{
+  font-family: 'Cagliostro', sans-serif;
+  font-size: 14pt;
+  text-align:justify;
+}
+
+section li{
+  padding: 20px;
+  font-family: 'Acme', sans-serif;
+  font-size: 18pt;
+}
+
+section article {
+  background-color: rgba(14,153,201,0.1)
+
+}
+
+section img{
+  margin: auto;
+  display: block;
+}
+
+section h1{
+  text-align: center;
+  font-family:'Limelight', cursive;
+  padding: 50px;
+  font-size: 18pt;
+  background-color:rgba(14,153,201,0.2);
+}
+
+section h3{
+  font-family: 'Acme', sans-serif;
+  font-size: 18pt;
+}
+
+section h4{
+  font-family: 'Cagliostro', sans-serif;
+  font-size: 16pt;
+  text-align: center;
+}
+
+footer p{
+  font-family: 'Acme', sans-serif;
+  font-size: 14pt;
+}
+
+footer a p{
+  text-decoration: none;
+  color: rgba(14,153,201,1);
+}
+
+footer a img:hover{
+  opacity:0.5
+}
+
+footer a img:active{
+  opacity:1
+}
+
+footer a img:visited{
+  opacity:0.5;
+}
+
+footer a p:active{
+  color:purple;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cancer Clinical Trial Report</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Cagliostro" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Assignment 5: Cancer Clinical Trial Report</h1>
+<p class="desc">The <a href="https://clinicaltrials.gov/ct2/results?recrs=e&cond=cancer&rank=1#rowId0" target="_blank">cancer clinical trial dataset<a> provides an objective, holistic view that helps us understand the nature of different cancers.
+  You are now able to explore the dataset as you wish by indicating your preferences for trial records.
+  By looking at the results, you should be able to get a prelimenary understanding of what intervention methods are often used for a certain types of tumors depending on the trial purpose.
+</p>
+  <form class="form" method="post" action="cancer.py">
+    <h2>Response Form</h2>
+    <p>1. Please select the primary purpose of the clinical trials:</p>
+    <select name="purpose" required>
+      <option value="Treatment">Treatment</option>
+      <option value="Supportive Care">Supportive Care</option>
+      <option value="Diagnostic">Diagnostic</option>
+      <option value="Prevention">Prevention</option>
+    </select>
+
+<p>2. Please select from intervention methods:</p>
+  <input type="checkbox" name="Behavioral Intervention" value="Behavioral">Behavioral Intervention</br>
+  <input type="checkbox" name="Biological Intervention" value="Biological">Biological Intervention</br>
+  <input type="checkbox" name="Device Intervention" value="Device">Device Intervention</br>
+  <input type="checkbox" name="Drug Intervention" value="Drug">Drug Intervention</br>
+  <input type="checkbox" name="Genetic Intervention" value="Genetic">Genetic Intervention</br>
+  <input type="checkbox" name="Procedure Intervention" value="Procedure">Procedure Intervention</br>
+  <input type="checkbox" name="Radiation Intervention" value="Radiation">Radiation Intervention</br>
+
+  <p>3. Please select how you would like the results to be ordered:</p>
+  <input type="radio" name="ordered" value="Conditions" required>Conditions</br>
+  <input type="radio" name="ordered" value="Intervention_Methods">Intervention Methods</br>
+
+  <p>4. Please select how many records you wish to see:</p>
+
+  <input type="radio" name="limit" value="5" required>5</br>
+  <input type="radio" name="limit" value="10">10</br>
+  <input type="radio" name="limit" value="20">20</br>
+  <input type="radio" name="limit" value="50">50</br>
+  <input type="radio" name="limit" value="100">100</br>
+  <input type="submit" value="Submit">
+  </form>
+</body>
+
+<footer>
+  <hr/>
+<div><a href="../../index.html"><p>Back to the home page</p></a></div>
+</footer>
+
+</html>

@@ -1,0 +1,36 @@
+.form {
+  font-size: 12pt;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  font-family: 'Cagliostro', sans-serif;
+  background-color: rgba(151, 195, 252, 0.5);
+}
+
+.desc{
+  font-family: 'Cagliostro', sans-serif;
+  font-size: 14pt;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+}
+
+h1{
+  font-size: 18pt;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  text-align: center;
+  font-family: 'Cagliostro', sans-serif;
+  background-color: rgba(151, 195, 252, 1)
+}
+h2{
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  text-align: center;
+  font-family: 'Cagliostro', sans-serif;
+}
+body{
+  background-color: rgba(151, 195, 252, 0.2)
+}
