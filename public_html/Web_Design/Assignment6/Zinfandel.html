@@ -1,0 +1,68 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <!--<link rel="stylesheet" type="text/css" href="style.css"/>-->
+<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+
+<link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+
+<link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+
+<meta name="viewport" content="initial-scale=1">
+
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html"><img src="Images/food_wine.jpg"><a>
+
+    <p></p>
+    <img class="headerImg" src="Images/headerImg.jpg">
+
+  </header>
+
+  <section>
+
+    <div class="parent">
+      <div class="mobileNav hamburger" onclick="myFunction()"i>&#9776;</div>
+      <nav class="desktopNav" id="myHeaderNav">
+
+      <div class="navButton"><a href = "PetiteSirah.html">Petite Sirah</a></div>
+      <div class="navButton" id="second"><a href = "CabernetFranc.html">Cabernet Franc</a></div>
+      <div class="navButton" id="third"><a href = "Zinfandel.html">Zinfandel</a></div>
+      <div class="navButton" id="fourth"><a href = "SauvignonBlanc.html">Sauvignon Blanc</a></div>
+    </nav>
+    <img class ="sectionImg" src="Images/zinfandel.jpg">
+
+    <h1 id="sectionH1">Robert Biale 2013 Zinfandel</h1>
+
+    <p class="sectionP">From a vineyard east of Napa first planted in 1905, Moore is densely structured and deceptively elegant, all while maintaining an intensity of tart cherry and wild blackberry. It remains vibrant on the palate from start to lengthy finish, a knockout among the producer’s high-achieving Zinfandels that should stand the test of time.
+</p>
+
+<h2 id="sectionH2">Western Burgers</h2>
+
+<p class="sectionP2">A juicy burger deserves a juicy wine: Zinfandel’s your bottle. And its sweet, ripe fruit seldom comes with hefty tannins, so it can handle all the tangy, spicy condiments you care to pile on the patty.</p>
+
+<img class="sectionImg2" src="Images/western_burger.jpg">
+
+</div>
+
+<script>
+
+function myFunction() {
+var x = document.getElementById("myHeaderNav");
+if (x.className === "desktopNav") {
+  x.className += " mobileNavOn";
+} else {
+  x.className = "desktopNav";
+}
+}
+
+</script>
+
+
+</html>

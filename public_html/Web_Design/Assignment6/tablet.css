@@ -1,0 +1,97 @@
+@import "desktop.css";
+
+.headerImg{
+  height:80px;
+}
+.mobileNav {
+  display: inline-flex;
+}
+
+.hamburger {
+  color:white;
+  font-size: 2em;
+  float:left;
+}
+
+.desktopNav {
+  display: none;
+}
+
+.mobileNavOn {
+  display: block;
+  width:100%;
+  margin:0px;
+  margin-top: 25px;
+}
+
+.navButton{
+  height:50px;
+  width: 150px;
+  background-color: rgba(255,255,255,0.5);
+  border: 1px solid white;
+  position:absolute;
+  top:30px;
+  left:30px;
+}
+
+.sectionImg{
+  height:600px;
+  width:150px;
+  position:absolute;
+  top:30px;
+  margin-left:0;
+  display: inline;
+  left:35px;
+  float: none;
+  z-index: -1;
+}
+
+#sectionH1{
+  color:white;
+  position: absolute;
+  top:5px;
+  font-size: 18pt;
+  margin-left:25px;
+  display:inline;
+  left:175px;
+  font-family: 'Gugi', cursive;
+}
+
+.sectionP{
+  display: inline-block;
+  width:50%;
+  margin-top:100px;
+  margin-left:175px;
+  font-size:10pt;
+}
+
+#sectionH2{
+  color:white;
+  position: absolute;
+  top:290px;
+  font-size: 15pt;
+  display:inline;
+  left:175px;
+  font-family: 'Gugi', cursive;
+}
+
+.sectionP2{
+  display: inline-block;
+  position:relative;
+  width:50%;
+  margin-top:120px;
+  margin-left:205px;
+  color:white;
+  font-size: 10pt;
+}
+
+.sectionImg2{
+  height:300px;
+  width:200px;
+  position:absolute;
+  top:50px;
+  margin-left:10pt;
+  display: inline;
+  float:right;
+
+}

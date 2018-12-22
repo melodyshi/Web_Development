@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <!--<link rel="stylesheet" type="text/css" href="style.css"/>-->
+<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+
+<link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+
+<link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+
+<meta name="viewport" content="initial-scale=1">
+
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html"><img src="Images/food_wine.jpg"><a>
+
+    <p></p>
+    <img class="headerImg" src="Images/headerImg.jpg">
+
+  </header>
+
+  <section>
+
+    <div class="parent">
+      <div class="mobileNav hamburger" onclick="myFunction()"i>&#9776;</div>
+      <nav class="desktopNav" id="myHeaderNav">
+
+      <div class="navButton"><a href = "PetiteSirah.html">Petite Sirah</a></div>
+      <div class="navButton" id="second"><a href = "CabernetFranc.html">Cabernet Franc</a></div>
+      <div class="navButton" id="third"><a href = "Zinfandel.html">Zinfandel</a></div>
+      <div class="navButton" id="fourth"><a href = "SauvignonBlanc.html">Sauvignon Blanc</a></div>
+    </nav>
+    <img class ="sectionImg" src="Images/petite_sirah.jpg">
+
+    <h1 id="sectionH1">90 Trueheart 2009 Petite Sirah</h1>
+
+    <p class="sectionP">A hearty Petite Sirah, this shows class, elegance and power. It’s dry and softly tannic, sprinkled with black pepper.
+Vintner Ligeia Polidora, proprietor of Trueheart Vineyard in Sonoma, suggests pairing it with hearty flavors, like grilled and roasted meats, bitter vegetables, strong cheeses and anything with lots of garlic.
+</p>
+
+<h2 id="sectionH2">Spicy Short Ribs</h2>
+
+<p class="sectionP2">First, Petite Sirah is anything but little. It’s a deep, dark bruiser of a wine—a stain-your-teeth-purple kind of wine. Petite Sirah is no cocktail wine—it needs hearty food alongside. Pull out a deeply flavored dish, like these Spiced Short Ribs, with enough protein and fat to coat those tannins, and you’ll taste what all the excitement is about.</p>
+
+<img class="sectionImg2" src="Images/shortRibs.jpg">
+
+</div>
+
+<script>
+
+function myFunction() {
+var x = document.getElementById("myHeaderNav");
+if (x.className === "desktopNav") {
+  x.className += " mobileNavOn";
+} else {
+  x.className = "desktopNav";
+}
+}
+
+</script>
+
+
+</html>

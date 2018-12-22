@@ -1,0 +1,18 @@
+@import "indexDesktop.css";
+@import "indexTablet.css";
+
+.headerImg{
+  height:50px;
+}
+
+.sectionImg{
+  height:300px;
+  width:400px;
+  position:absolute;
+  top:0px;
+  margin-left:0;
+  display: inline;
+  left:35px;
+  float: none;
+  z-index: -1;
+}

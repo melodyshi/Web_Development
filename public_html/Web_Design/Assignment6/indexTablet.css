@@ -1,0 +1,47 @@
+@import "indexDesktop.css";
+
+.headerImg{
+  height:80px;
+}
+.mobileNav {
+  display: inline-flex;
+}
+
+.hamburger {
+  color:white;
+  font-size: 2em;
+  float:left;
+}
+
+.desktopNav {
+  display: none;
+}
+
+.mobileNavOn {
+  display: block;
+  width:100%;
+  margin:0px;
+  margin-top: 25px;
+}
+
+.navButton{
+  height:50px;
+  width: 150px;
+  background-color: rgba(255,255,255,0.5);
+  border: 1px solid white;
+  position:absolute;
+  top:30px;
+  left:30px;
+}
+
+.sectionImg{
+  height:600px;
+  width:800px;
+  position:absolute;
+  top:30px;
+  margin-left:0;
+  display: inline;
+  left:35px;
+  float: none;
+  z-index: -1;
+}

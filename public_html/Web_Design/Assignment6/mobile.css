@@ -1,0 +1,72 @@
+@import "desktop.css";
+@import "tablet.css";
+
+.headerImg{
+  height:50px;
+}
+
+.sectionImg2{
+display: none;
+
+}
+
+.navButton{
+  height:50px;
+  width: 150px;
+  background-color: rgba(255,255,255,0.5);
+  border: 1px solid white;
+  position:absolute;
+  top:30px;
+  left:30px;
+}
+
+.sectionImg{
+  height:600px;
+  width:150px;
+  position:absolute;
+  top:0px;
+  margin-left:0;
+  display: inline;
+  left:35px;
+  float: none;
+  z-index: -1;
+}
+
+#sectionH1{
+  color:white;
+  position: absolute;
+  top:5px;
+  font-size: 18pt;
+  margin-left:25px;
+  display:inline;
+  left:175px;
+  font-family: 'Gugi', cursive;
+}
+
+.sectionP{
+  display: inline-block;
+  width:50%;
+  margin-top:100px;
+  margin-left:205px;
+  font-size:10pt;
+}
+
+#sectionH2{
+  color:white;
+  position: absolute;
+  top:400px;
+  font-size: 15pt;
+  display:inline;
+  left:175px;
+  font-family: 'Gugi', cursive;
+}
+
+.sectionP2{
+  display: inline-block;
+  position:relative;
+  width:50%;
+  margin-top:90px;
+  margin-left:205px;
+  color:white;
+  font-size: 10pt;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <!--<link rel="stylesheet" type="text/css" href="style.css"/>-->
+<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+
+<link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+
+<link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+
+<meta name="viewport" content="initial-scale=1">
+
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html"><img src="Images/food_wine.jpg"><a>
+
+    <p></p>
+    <img class="headerImg" src="Images/headerImg.jpg">
+
+  </header>
+
+  <section>
+
+    <div class="parent">
+      <div class="mobileNav hamburger" onclick="myFunction()"i>&#9776;</div>
+      <nav class="desktopNav" id="myHeaderNav">
+
+      <div class="navButton"><a href = "PetiteSirah.html">Petite Sirah</a></div>
+      <div class="navButton" id="second"><a href = "CabernetFranc.html">Cabernet Franc</a></div>
+      <div class="navButton" id="third"><a href = "Zinfandel.html">Zinfandel</a></div>
+      <div class="navButton" id="fourth"><a href = "SauvignonBlanc.html">Sauvignon Blanc</a></div>
+    </nav>
+    <img class ="sectionImg" src="Images/cabernet_franc.jpg">
+
+    <h1 id="sectionH1">Chateau 2014 Cabernet Franc</h1>
+
+    <p class="sectionP">This powerful and dense wine has both impressive tannins and great black fruits. It is rich with black-plum-skin and dark berry flavors. The concentration of low-yield vines is lifted by the acidity and final rich fruitiness. Age this major wine and drink from 2021.
+      The wine is rich, full and powerful, with good tannins and black fruits.
+</p>
+
+<h2 id="sectionH2">Lamb Chops</h2>
+
+<p class="sectionP2">Cabernet Franc is a very aromatic cousin to Cabernet Sauvignon. One of the five Bordeaux grapes, it has almost always been blended in with one or more of the others ― until now. Coming on strong on its own in the West, it has an exotic combination of florals and spices that make a great foil for Moroccan flavors and pungent lamb.</p>
+
+<img class="sectionImg2" src="Images/lamb_chops.jpg">
+
+</div>
+
+<script>
+
+function myFunction() {
+var x = document.getElementById("myHeaderNav");
+if (x.className === "desktopNav") {
+  x.className += " mobileNavOn";
+} else {
+  x.className = "desktopNav";
+}
+}
+
+</script>
+
+
+</html>
