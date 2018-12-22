@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Melody's Travel Blog</title>
+
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <link href="css/custom.css" rel="stylesheet">
+<style>
+body{
+  /**background: url("Img/repeatingPattern4.jpg")**/
+  background: rgb(238,218,179);
+}
+p{
+  font-family: 'Raleway', sans-serif;
+}
+</style>
+
+
+
+    <!-- Custom styles for this template -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <p class="navbar-brand" href="#">Melody's Travel Blog</p>
+    </div>
+
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">
+          <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+          Home</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span>Places I have been<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="hawaii.html">Hawaii</a></li>
+              <li class="active"><a href="florida.html">Florida</a></li>
+              <li><a href="costaRica.html">Costa Rica</a></li>
+            </ul>
+          </li>
+          <li><a href="nextStation.html"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>
+          Next Station Survey</a></li>
+
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+<ol class="breadcrumb">
+  <li>Places I have been</li>
+  <li class="active">Florida</li>
+</ol>
+
+<!--12 grid system-->
+
+<div id = "gallery">
+  <div class="col-md-12"><img src="Img/miami.png"></div>
+
+  <div id="img1" class="col-md-4"><img src="Img/orl1.jpg"></div>
+  <div id="img2" class="col-md-4"><img src="Img/orl2.jpg"></div>
+  <div id="img3" class="col-md-4"><img src="Img/orl3.jpg"></div>
+
+
+
+  <div id="img4" class="col-md-6"><img src="Img/orl4.jpg"></div>
+  <div id="img5" class="col-md-6"><img src="Img/orl5.jpg"></div>
+
+  <div id="img6" class="col-md-4"><img src="Img/orl6.jpg"></div>
+  <div id="img7" class="col-md-4"><img src="Img/orl7.jpg"></div>
+  <div id="img8" class="col-md-4"><img src="Img/orl8.jpg"></div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<script>
+$('#title').animate({left:"200px"},3000,"linear");
+$('#img1').hide();
+$('#img1').fadeIn(2000);
+$('#img2').hide();
+$('#img2').fadeIn(3000);
+$('#img3').hide();
+$('#img3').fadeIn(5000);
+$('#img4').hide();
+$('#img4').fadeIn(5000);
+$('#img5').hide();
+$('#img5').fadeIn(5000);
+$('#img6').hide();
+$('#img6').fadeIn(7000);
+$('#img7').hide();
+$('#img7').fadeIn(8000);
+$('#img8').hide();
+$('#img8').fadeIn(8000);
+
+
+</script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
